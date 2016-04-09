@@ -1,0 +1,19 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 20000000
+resteps 20000000
+replicas 1
+samplefrequency 1
+sampleafter 1
+boundry 300
+temperaturemax 560
+temperaturemin 500
+prefix 1cwp_6_100mm
+
+files
+
+p(120,120,120)	r(1,0,0,0) data/application/1cwp.pdb
+p(110,130,190)	r(1,0,0,1) data/application/1cwp.pdb
+p(110,60,110)	r(1,0,0,1) data/application/1cwp.pdb
+

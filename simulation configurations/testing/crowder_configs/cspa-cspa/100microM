@@ -1,0 +1,18 @@
+gpus 2
+streams 1
+threads 2
+mcsteps 15000000
+resteps 3000
+replicas 20
+samplefrequency 1000
+sampleafter 1000000
+boundry 255.2
+temperaturemax 500
+temperaturemin 250
+prefix cspa-cspa_100microM
+
+files
+
+p(45,45,45) r(0,1,0,3.142) data/application/cspA.pdb
+p(85,85,85) r(1,0,0,-3.142) data/application/cspA.pdb
+

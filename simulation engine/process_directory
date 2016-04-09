@@ -1,0 +1,13 @@
+#!/bin/bash
+echo Runs REMC code on all items in a directory
+echo "Usage: process_directory [REMCDockingGPU exe + args (not -f)] [dir]" 
+PATH=$PATH:.
+log=log_`date | sed 's/\ /_/g'`
+echo "Logging to $log" 
+for i in `ls $2`
+do	
+	echo "Running $1 -f $2/$i"
+	$1 -f $2/$i >> $log
+	date >> $log
+	echo "-- Finished $1 -f $2/$i --" >> $log
+done

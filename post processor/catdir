@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in `ls pdbgen_results`:
+do
+	cat pdbgen_results/$i >> tmp.pdb
+done;

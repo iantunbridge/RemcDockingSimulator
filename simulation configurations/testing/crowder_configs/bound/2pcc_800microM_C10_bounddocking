@@ -1,0 +1,31 @@
+gpus 1
+streams 1
+threads 2
+mcsteps 20000000
+resteps 4000
+replicas 10
+samplefrequency 500
+sampleafter 10000
+boundry 127.6
+temperaturemax 416
+temperaturemin 300
+prefix 2pcc_0800microM_C10_bound
+
+files
+
+p(75,45,75) r(1,0,0,0) data/application/cc.pdb
+p(50,75,50) r(1,0,0,0) data/application/ccp.pdb
+
+crowders
+p(10,10,10)	r(0,1,0,0.29) 	data/application/cspA.pdb
+p(117,117,117) r(1,1,0,0.25)	data/application/cspA.pdb
+p(10,10,117) r(0,1,1,0.32) 	data/application/cspA.pdb
+p(117,117,10) r(0,0,1,0.27) 	data/application/cspA.pdb
+p(10,117,117) r(0,1,0,0.42) 	data/application/cspA.pdb
+
+p(117,10,10) r(0,1,0,0.82) 	data/application/cspA.pdb
+p(117,10,117) r(0,1,0,0.12) 	data/application/cspA.pdb
+p(10,117,10) r(0,1,0,0.92) 	data/application/cspA.pdb
+p(10,60,60) r(0,1,0,0.22) 	data/application/cspA.pdb
+p(117,60,60) r(0,1,0,0.42) 	data/application/cspA.pdb
+

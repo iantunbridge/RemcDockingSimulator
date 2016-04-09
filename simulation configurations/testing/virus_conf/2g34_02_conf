@@ -1,0 +1,17 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 20000000
+resteps 4000
+replicas 20
+samplefrequency 500
+sampleafter 2000
+boundry 255.2
+temperaturemax 600
+temperaturemin 300
+prefix 2g34_02
+
+files
+
+p(120,180,120) r(1,0,0,0) data/application/2g34.pdb
+p(120,60,120) r(1,0,1,4) data/application/2g34.pdb

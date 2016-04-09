@@ -1,0 +1,37 @@
+#parameters
+
+gpus 1
+streams 1
+threads 1
+mcsteps 100000000
+resteps 20000
+replicas 20
+samplefrequency 1000
+sampleafter 1000
+boundry 100
+temperaturetop 300
+temperaturebottom 288
+
+files
+
+
+# molecules are defined after the "file" token above. This section inserts molecules that 
+# are counted as part of the bound complex 
+# p(x,y,z) r(x,y,z,a) filename
+# p(x,y,z) or t(x,y,z) p = absolute position (x,y,z); t = translate by (x,y,z). one is required
+# the bounding box is defined as {x,y,z} = {[0:boundry],[0:boundry],[0:boundry]} p and r can be 
+# outside the bounds but will be set equal to the modulo of it and the boundry size on the 1st MC move  
+# r(x,y,z,a) = rotate about axis x,y,z by a in a clockwise manner
+# filename is the path to the file, can be relative to the executable or absolute
+
+p(45,45,45) r(0,1,0,3.142) data/application/ubq.pdb
+p(65,65,65) r(1,0,0,-3.142) data/application/uim.pdb
+
+crowders
+
+# the above "crowder token denotes all the molecules loaded from here are crowders
+
+p(10,10,10) r(0,1,0,0.142) data/application/cspA.pdb
+p(80,80,80) r(1,1,0,-0.142) data/application/cspA.pdb
+p(10,10,90) r(0,1,0,0.142) data/application/cspA.pdb
+p(10,80,10) r(1,1,0,-0.142) data/application/cspA.pdb

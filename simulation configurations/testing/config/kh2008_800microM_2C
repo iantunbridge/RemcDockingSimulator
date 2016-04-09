@@ -1,0 +1,23 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 5000000
+resteps 1000
+replicas 20
+samplefrequency 1000
+sampleafter 1000
+boundry  127.6
+temperaturetop 300
+temperaturebottom 288
+prefix kh2008_800microM_2C
+
+files
+
+p(45,45,45) r(0,1,0,3.142) data/application/ubq.pdb
+p(85,85,85) r(1,0,0,-3.142) data/application/uim.pdb
+
+crowders
+
+p(10,10,10) r(0,1,0,0.142) data/application/cspA.pdb
+p(110,110,10) r(1,0,0,0.1) data/application/cspA.pdb
+

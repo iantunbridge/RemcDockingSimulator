@@ -1,0 +1,18 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 10000
+resteps 100
+replicas 10
+samplefrequency 1000
+sampleafter 0
+boundry  202.5
+temperaturemax 360
+temperaturemin 288
+prefix delete_test
+
+files
+
+p(45,45,45) r(0,1,0,3.142) data/application/ubq.pdb
+p(65,65,65) r(1,0,0,-3.142) data/application/uim.pdb
+

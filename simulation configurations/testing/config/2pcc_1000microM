@@ -1,0 +1,18 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 10000000
+resteps 2000
+replicas 20
+samplefrequency 1000
+sampleafter 1000000
+boundry  118.4
+temperaturemax 420
+temperaturemin 240
+prefix 2pcc_1000microM
+
+files
+
+p(70,40,70) r(1,0,0,0) data/application/cc.pdb
+p(45,70,45) r(1,0,0,0) data/application/ccp.pdb
+

@@ -1,0 +1,13 @@
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Aspartic_acid
+Asp
+D
+5.6
+-1
+
+

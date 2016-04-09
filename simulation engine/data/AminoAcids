@@ -1,0 +1,256 @@
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Alanine
+Ala
+A
+5.0
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Argnine
+Arg
+R
+6.6
+1
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Asparagine
+Asn
+N
+5.7
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Aspartic_acid
+Asp
+D
+5.6
+-1
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Cysteine
+Cys
+C
+5.5
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Glutamic_acid
+Glu
+E
+5.9
+-1
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Glutamine
+Gln
+Q
+6.0
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Glycine
+Gly
+G
+4.5
+0
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Leucine
+Leu
+L
+6.2
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Lysine
+Lys
+K
+6.4
+1
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Methionine
+Met
+M
+6.2
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Phenylalanine
+Phe
+F
+6.4
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Proline
+Pro
+P
+5.6
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Serine
+Ser
+S
+5.2
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Threonine
+Thr
+T
+5.6
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Tryptophan
+Trp
+W
+6.8
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Tyrosine
+Tyr
+Y
+6.5
+0
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Valine
+Val
+V
+5.9
+0
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Histine
+His
+H
+6.1
+0.5
+
+
+#Amino acid class initialisation data
+#name
+#abbriviation
+#short symbol
+#van der Waal radius
+#residue charge
+Isoleucine
+Ile
+I
+6.2
+0

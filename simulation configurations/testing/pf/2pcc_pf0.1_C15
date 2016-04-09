@@ -1,0 +1,51 @@
+gpus 1
+streams 1
+threads 1
+mcsteps 20000000
+resteps 4000
+replicas 10
+samplefrequency 500
+sampleafter 10000
+boundry 131.35
+temperaturemax 416
+temperaturemin 300
+prefix 2pcc_pf0.1_15
+
+files
+
+p(79,30,79) r(1,0,0,0) data/application/cc.pdb
+p(55,65,55) r(1,0,0,0) data/application/ccp.pdb
+
+crowders
+p(10,10,10)	r(0,1,0,0.29) 	data/application/cspA.pdb
+p(125,125,125) r(1,1,0,0.25)	data/application/cspA.pdb
+p(10,10,125) r(0,1,1,0.32) 	data/application/cspA.pdb
+p(125,125,10) r(0,0,1,0.27) 	data/application/cspA.pdb
+p(10,125,125) r(0,1,0,0.42) 	data/application/cspA.pdb
+
+p(125,10,10) r(0,1,0,0.82) 	data/application/cspA.pdb
+p(125,10,125) r(0,1,0,0.12) 	data/application/cspA.pdb
+p(10,125,10) r(0,1,0,0.92) 	data/application/cspA.pdb
+#p(10,50,50) r(0,1,0,0.22) 	data/application/cspA.pdb
+#p(125,50,50) r(0,1,0,0.42) 	data/application/cspA.pdb
+
+p(50,125,50) r(0,1,0,0.62) 	data/application/cspA.pdb
+p(50,10,50) r(0,1,0,0.82) 	data/application/cspA.pdb
+p(125,10,50) r(0,1,0,0.2) 	data/application/cspA.pdb
+p(10,125,50) r(0,1,0,0.22) 	data/application/cspA.pdb
+p(125,125,50) r(0,1,0,0.42) 	data/application/cspA.pdb
+
+#p(10,10,50) r(0,1,0,0.92) 	data/application/cspA.pdb
+#p(50,10,10) r(0,1,10,0.29) 	data/application/cspA.pdb
+#p(50,125,125) r(0,1,0,1.2) 	data/application/cspA.pdb
+#p(125,50,125) r(0,1,10,0.92) 	data/application/cspA.pdb
+
+#p(10,50,10) r(0,1,0,0.82) 	data/application/cspA.pdb
+p(10,50,125) r(1,1,0,0.24) 	data/application/cspA.pdb
+p(125,50,10) r(0,1,0,0.42) 	data/application/cspA.pdb
+#p(50,125,10) r(0,1,1,0.72) 	data/application/cspA.pdb
+
+#p(50,10,125) r(0,1,0,0.2) 	data/application/cspA.pdb
+#p(50,50,10) r(0,1,0,0.2) 	data/application/cspA.pdb
+#p(50,50,125) r(0,1,0,0.2) 	data/application/cspA.pdb
+

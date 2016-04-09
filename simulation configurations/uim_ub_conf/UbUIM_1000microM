@@ -1,0 +1,18 @@
+gpus 2
+streams 1
+threads 2
+mcsteps 15000000
+resteps 3000
+replicas 20
+samplefrequency 1000
+sampleafter 1000000
+boundry  118.4
+temperaturemax 600
+temperaturemin 300
+prefix Uim1Ub_1000microM
+
+files
+
+p(45,45,45) r(0,1,0,3.142) data/application/ubq.pdb
+p(85,85,85) r(1,0,0,-3.142) data/application/uim.pdb
+
